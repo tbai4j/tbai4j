@@ -1,5 +1,5 @@
 # tbai4j
-Ejemplo de firma y envío de facturas en formato  Xades Epes Enveloped para proyecto TicketBAI.
+Ejemplo java de firma y envío de facturas en formato  Xades Epes Enveloped para proyecto TicketBAI.
 
 Basado en proyecto xades4j para firma y gestión de certificados.
 https://github.com/luisgoncalves/xades4j
