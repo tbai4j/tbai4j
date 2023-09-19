@@ -19,19 +19,14 @@
           <target>1.2</target>
         </configuration>
       </plugin>
-     
-      
     </plugins>
   </build>
   <dependencies>
-	    
-	  
 	  <dependency>
 		    <groupId>ch.qos.logback</groupId>
 		    <artifactId>logback-classic</artifactId>
 		    <version>${logback.version}</version>		    
-		</dependency> 
-			   
+	</dependency> 	   
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -70,40 +65,35 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
-		  <groupId>com.googlecode.xades4j</groupId>
-		  <artifactId>xades4j</artifactId>
-		  <version>2.0.0</version>
-		</dependency>
-		
-		<dependency>
-		    <groupId>jakarta.xml.bind</groupId>
-		    <artifactId>jakarta.xml.bind-api</artifactId>
-		    <version>2.3.3</version>
-		</dependency>
-		
-		<dependency>
+	  <groupId>com.googlecode.xades4j</groupId>
+	  <artifactId>xades4j</artifactId>
+	  <version>2.0.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>jakarta.xml.bind</groupId>
+	    <artifactId>jakarta.xml.bind-api</artifactId>
+	    <version>2.3.3</version>
+	</dependency>
+	<dependency>
 		    <groupId>com.sun.xml.bind</groupId>
 		    <artifactId>jaxb-impl</artifactId>
 		    <version>2.3.3</version>
 		    <scope>runtime</scope>
-		</dependency>
-		<dependency>
+	</dependency>
+	<dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.13</version>
         </dependency>
-        
         <dependency>
 		    <groupId>com.google.zxing</groupId>
 		    <artifactId>core</artifactId>
 		    <version>3.4.1</version>
-		</dependency>
-		<dependency>
+	</dependency>
+	<dependency>
 		    <groupId>com.google.zxing</groupId>
 		    <artifactId>javase</artifactId>
 		    <version>3.4.1</version>
-		</dependency>
-		
+	</dependency>	
     </dependencies>
-  
 </project>
